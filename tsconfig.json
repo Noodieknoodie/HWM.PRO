@@ -3,6 +3,7 @@
     "declaration": true,
     "target": "es2017",
     "module": "commonjs",
+    "jsx": "react",
     "outDir": "./lib",
     "rootDir": "./src",
     "sourceMap": true,
@@ -10,5 +11,6 @@
     "tsBuildInfoFile": "./lib/.tsbuildinfo",
     "resolveJsonModule": true,
     "esModuleInterop": true
-  }
+  },
+  "exclude": ["vite.config.ts"]
 }
