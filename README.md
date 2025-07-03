@@ -4,7 +4,7 @@ This template showcases how Microsoft Teams supports the ability to run web-base
 
 ## Get started with the Basic Tab template
 
-> **Prerequisites**
+> **Prerequisites** 
 >
 > To run the basic tab template in your local dev machine, you will need:
 >
