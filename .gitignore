@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+
+# TypeScript
+lib/
+*.tsbuildinfo
+
+# Build output
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+env/.env.*.user
+env/.env.local
+
+# Teams Toolkit
+.fx/configs/localSettings.json
+.fx/states/
+.localConfigs
+.deployment/
+appPackage/build/
+*.zip
+
+# Azure Functions
+api/local.settings.json
+api/.python_packages/
+api/__pycache__/
+api/**/__pycache__/
+*.pyc
+
+# IDE and editors
+
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# OS generated files
+Thumbs.db
