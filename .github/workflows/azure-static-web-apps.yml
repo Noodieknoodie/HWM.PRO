@@ -34,8 +34,8 @@ jobs:
       - name: Build React app
         run: npm run build:react
 
-      - name: Build server
-        run: npm run build:server
+      - name: Copy index.html to dist
+        run: cp src/static/index.html dist/
 
       - name: Build And Deploy
         id: builddeploy

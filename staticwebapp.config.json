@@ -1,10 +1,6 @@
 {
   "routes": [
     {
-      "route": "/api/*",
-      "allowedRoles": ["anonymous"]
-    },
-    {
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
@@ -12,13 +8,15 @@
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/assets/*", "/scripts/*", "/api/*"]
+    "exclude": ["/assets/*", "/scripts/*", "/*.js", "/*.css", "/*.png", "/*.jpg", "/*.ico"]
   },
   "mimeTypes": {
     ".json": "application/json",
     ".js": "text/javascript",
     ".css": "text/css",
-    ".html": "text/html"
+    ".html": "text/html",
+    ".tsx": "text/javascript",
+    ".ts": "text/javascript"
   },
   "responseOverrides": {
     "404": {
