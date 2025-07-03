@@ -7,7 +7,8 @@ import ErrorBoundary from '../../components/ErrorBoundary';
 import LaunchMenu from '../../components/LaunchMenu';
 import ClientDashboard from '../../components/payment/ClientDashboard';
 import UnderConstruction from '../../components/UnderConstruction';
-import '../styles/custom.css';
+import '../../styles/globals.css';
+import '../../styles/index.css';
 
 // Create a client
 const queryClient = new QueryClient({

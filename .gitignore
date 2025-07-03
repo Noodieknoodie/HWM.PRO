@@ -23,7 +23,6 @@ out/
 .env.production.local
 env/.env.*.user
 env/.env.local
-env/.env.dev
 
 # Teams Toolkit
 .fx/configs/localSettings.json
